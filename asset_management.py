@@ -4,12 +4,12 @@ from shotgun_api3 import Shotgun
 #Seccion Parser
 parser = argparse.ArgumentParser(description = 'Creador de Versiones.')
 
-parser.add_argument('--user', dest = 'User', action = 'store', help = 'user code')
-parser.add_argument('--project', dest = 'Project', action = 'store', help = 'project code')
-parser.add_argument('--asset', dest = 'Asset', action = 'store', help = 'asset code')
-parser.add_argument('--id', dest = 'ID', action = 'store', help = 'id code')
-parser.add_argument('--task', dest = 'Task', action = 'store', help = 'task code')
-parser.add_argument('--path', dest = 'Path', action = 'store', help = 'path code')
+parser.add_argument('--user', dest = 'User', action = 'store', help = 'Codigo de usuario')
+parser.add_argument('--project', dest = 'Project', action = 'store', help = 'Codigo del proyecto')
+parser.add_argument('--asset', dest = 'Asset', action = 'store', help = 'Nombre del asset')
+parser.add_argument('--id', dest = 'ID', action = 'store', help = 'Codigo de ID')
+parser.add_argument('--task', dest = 'Task', action = 'store', help = 'Codigo de Task')
+parser.add_argument('--path', dest = 'Path', action = 'store', help = 'Direccion del archivo, asegurate de agregar un \\ extra en cada \\ de la direccion')
 
 args = parser.parse_args()
 
