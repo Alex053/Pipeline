@@ -1,6 +1,8 @@
 SETUP // CONFIGURACIÓN
 1. Si ya tienes python instalado en tu computadora pasa al paso numero 3.
+
 2.Instala pyton 2.7 desde el siguiente enlace https://www.python.org/download/releases/2.7/
+
 3.Dependiendo del sistema windows que tengas revisa lo siguiente*
 Windows  10 / 8
 Presiona la tecla de Windows y en el buscador escribe "Editar las variables del entorno de esta cuenta"
@@ -23,6 +25,9 @@ Haga clic en Aceptar.
 5. Presion Windos+R y escribe "cmd" y presiona la tecla de Enter.
 6. Dentro de la terminal escribe escribe lo siguiente: pip install git+git://github.com/shotgunsoftware/python-api.git
 7. Presiona enter para que comience el comando y una vez finalizado cierra la terminal.
+
 8. Ve a la carpeta donde descargaste el archivo asset_management.py
+
 9.Manten presionada la tecla Shift y en cualquier parte de la ventana presion el boton derecho del ratón.
+
 10.Selecciona la opcion que dice "Abrir ventana de comandos aqui" y escribe asset_management.py -h para ver la ayuda del script.
