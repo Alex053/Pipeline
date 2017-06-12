@@ -17,9 +17,7 @@ Haga clic en Editar. Si no existe la variable de entorno PATH, haga clic en Nuev
 En la ventana Editar la variable del sistema (o Nueva variable del sistema), debe especificar el valor de la variable de entorno PATH.
 Haga clic en Aceptar.
 
-
 *En la instalacion normal de python se debería de hacer este proceso automaticamente.
-
 
 4. Instala git desde la siguiente dirección : https://git-scm.com/download/win
 5. Presion Windos+R y escribe "cmd" y presiona la tecla de Enter.
